@@ -1,0 +1,9 @@
+vars lRetValue = api_function ("attribute_update_all" , doc_id, user_name")
+if (lRetValue != 0)
+{
+    call api_log_error ("Fehler :lRetValue beim Aktualisieren der Daten des Dokuments ") 
+}
+else
+{
+    
+}
