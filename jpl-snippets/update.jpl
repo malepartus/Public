@@ -1,3 +1,4 @@
+// Aktualisieren aller bisherigen gepeicherten Variablen im System
 vars lRetValue = api_function ("attribute_update_all" , doc_id, user_name")
 if (lRetValue != 0)
 {
