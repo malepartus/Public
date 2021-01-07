@@ -1,0 +1,6 @@
+proc InsertEntry_10  (user_name, doc_type_short)
+{
+    call api_log_info("########## Entry InsertEntry_10 ( :user_name, :doc_type_short ) ################")
+    
+    call api_log_info("########## Exit InsertEntry_10( ) ################")
+} // ende Hook InsertEntry_10 
